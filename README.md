@@ -4,7 +4,7 @@ A browser-based Space Invaders clone with a comedic HR workplace narrative. You 
 
 ## Play It
 
-**GitHub Pages**: [https://\<your-username\>.github.io/space-invaders](https://github.com)
+**GitHub Pages**: [https://kingdeadknight.github.io/space-invaders-galactic-syndicate](https://kingdeadknight.github.io/space-invaders-galactic-syndicate)
 
 **Local (recommended for Firefox)**:
 ```
