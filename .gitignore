@@ -1,0 +1,19 @@
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
