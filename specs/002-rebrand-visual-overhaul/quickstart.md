@@ -1,6 +1,6 @@
 # Quickstart: Visual Overhaul & Gameplay Balancing
 
-**Branch**: `001-rebrand-visual-overhaul` | **Date**: 2026-03-06
+**Branch**: `002-rebrand-visual-overhaul` | **Date**: 2026-03-06
 
 ---
 
@@ -18,7 +18,7 @@
 
 ```bash
 # Clone / stay on branch
-git checkout 001-rebrand-visual-overhaul
+git checkout 002-rebrand-visual-overhaul
 
 # Serve from repository root
 npx serve .
@@ -168,7 +168,7 @@ No build step required. Push the branch to any static hosting provider.
 
 **GitHub Pages** (if configured):
 ```bash
-git push origin 001-rebrand-visual-overhaul
+git push origin 002-rebrand-visual-overhaul
 # Merge to main via PR; GitHub Pages deploys automatically from main branch
 ```
 

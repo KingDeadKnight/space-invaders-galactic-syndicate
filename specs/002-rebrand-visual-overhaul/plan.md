@@ -1,7 +1,7 @@
 # Implementation Plan: Syndicat Galactique — Visual Overhaul & Gameplay Balancing
 
-**Branch**: `001-rebrand-visual-overhaul` | **Date**: 2026-03-06 | **Spec**: [specs/001-rebrand-visual-overhaul/spec.md](spec.md)  
-**Input**: Feature specification from `/specs/001-rebrand-visual-overhaul/spec.md`
+**Branch**: `002-rebrand-visual-overhaul` | **Date**: 2026-03-06 | **Spec**: [specs/002-rebrand-visual-overhaul/spec.md](spec.md)
+**Input**: Feature specification from `/specs/002-rebrand-visual-overhaul/spec.md`
 
 ## Summary
 
@@ -9,14 +9,14 @@ Rebrand the existing Syndicat Galactique game with a "Corporate Hell" visual ide
 
 ## Technical Context
 
-**Language/Version**: Vanilla JavaScript (ES2020+), ES Modules  
-**Primary Dependencies**: None — Web Audio API and HTML5 Canvas API are browser-native; one `<link>` to Google Fonts CDN for "Press Start 2P" pixel font (graceful fallback to Courier New)  
-**Storage**: N/A — all state is session-scoped; `reducedMotion` preference is held in memory only (no localStorage per KISS)  
-**Testing**: Manual browser testing (Chrome and Firefox); no automated tests in scope  
-**Target Platform**: Modern browser (Chrome 90+, Firefox 90+); static hosting (GitHub Pages / `npx serve` / `file://`)  
-**Project Type**: Browser game — single-page static application, no build step  
-**Performance Goals**: 60 fps fixed-timestep maintained; no perceptible input lag; particle system capped at ~50 simultaneous particles  
-**Constraints**: No bundler; no external image/audio assets; all sprites programmatically drawn via Canvas API; all audio procedurally synthesised via Web Audio API  
+**Language/Version**: Vanilla JavaScript (ES2020+), ES Modules
+**Primary Dependencies**: None — Web Audio API and HTML5 Canvas API are browser-native; one `<link>` to Google Fonts CDN for "Press Start 2P" pixel font (graceful fallback to Courier New)
+**Storage**: N/A — all state is session-scoped; `reducedMotion` preference is held in memory only (no localStorage per KISS)
+**Testing**: Manual browser testing (Chrome and Firefox); no automated tests in scope
+**Target Platform**: Modern browser (Chrome 90+, Firefox 90+); static hosting (GitHub Pages / `npx serve` / `file://`)
+**Project Type**: Browser game — single-page static application, no build step
+**Performance Goals**: 60 fps fixed-timestep maintained; no perceptible input lag; particle system capped at ~50 simultaneous particles
+**Constraints**: No bundler; no external image/audio assets; all sprites programmatically drawn via Canvas API; all audio procedurally synthesised via Web Audio API
 **Scale/Scope**: ~15 modified JS modules, 3 new JS modules, ~800–1200 lines net new/changed code
 
 ## Constitution Check
@@ -48,7 +48,7 @@ Rebrand the existing Syndicat Galactique game with a "Corporate Hell" visual ide
 ### Documentation (this feature)
 
 ```text
-specs/001-rebrand-visual-overhaul/
+specs/002-rebrand-visual-overhaul/
 ├── plan.md              # This file
 ├── research.md          # Phase 0 — scaling, font, particles, fire rate, audio themes, cutscene
 ├── data-model.md        # Phase 1 — updated entity schemas, new entity schemas, state extensions

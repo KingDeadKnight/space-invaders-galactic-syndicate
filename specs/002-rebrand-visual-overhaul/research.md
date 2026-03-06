@@ -1,6 +1,6 @@
 # Research: Syndicat Galactique — Visual Overhaul & Gameplay Balancing (Phase 0)
 
-**Branch**: `001-rebrand-visual-overhaul` | **Date**: 2026-03-06
+**Branch**: `002-rebrand-visual-overhaul` | **Date**: 2026-03-06
 
 ---
 
@@ -223,7 +223,7 @@ A single index reference `state.performanceReviewAlienIndex` (number|null) is st
 **Decision**: Add a `CUTSCENE` phase to the `GameState` phase machine. Cutscene state is `state.cutsceneState: { timer, stats[], barAnimProgress, skipped }`. `stats[]` is generated at level completion from current score/kills/accuracy. The cutscene renders 4 animated bar charts using `fillRect` with bars growing from 0 to their target height over ~1.5 s (eased). Labels use fake HR jargon copied from a static pool.
 
 **Cutscene content** (FR-027): Shown after each level completion, before the next level loads:
-- Header: `"Q[n] PERFORMANCE REVIEW"`  
+- Header: `"Q[n] PERFORMANCE REVIEW"`
 - 4 KPI bars: `"UNION SUPPRESSION RATE"`, `"SYNERGY ALIGNMENT"`, `"LEVERAGE UTILISED"`,  `"EMPLOYEE DISSATISFACTION"`
 - Values derived from actual session data (e.g., aliens killed / total × 100, score, hits, misses)
 - A skip prompt: `"[ SPACE ] SKIP"` displayed from frame 1

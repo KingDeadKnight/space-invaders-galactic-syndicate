@@ -1,8 +1,8 @@
 # Feature Specification: Syndicat Galactique — Visual Overhaul & Gameplay Balancing
 
-**Feature Branch**: `001-rebrand-visual-overhaul`  
-**Created**: 2026-03-06  
-**Status**: Draft  
+**Feature Branch**: `002-rebrand-visual-overhaul`
+**Created**: 2026-03-06
+**Status**: Draft
 **Input**: User description: "REBRANDING: Visual overhaul and gameplay balancing for Syndicat Galactique."
 
 ## User Scenarios & Testing *(mandatory)*

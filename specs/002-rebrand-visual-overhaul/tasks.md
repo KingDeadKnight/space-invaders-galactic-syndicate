@@ -1,6 +1,6 @@
 # Tasks: Syndicat Galactique — Visual Overhaul & Gameplay Balancing
 
-**Input**: Design documents from `specs/001-rebrand-visual-overhaul/`
+**Input**: Design documents from `specs/002-rebrand-visual-overhaul/`
 **Prerequisites**: plan.md ✅, spec.md ✅, research.md ✅, data-model.md ✅, contracts/entities.md ✅, contracts/systems.md ✅, quickstart.md ✅
 
 **Tests**: No automated tests in scope (manual browser testing per constitution — plan.md §Technical Context).
@@ -149,7 +149,7 @@
 - [X] T036 [P] Add JSDoc to all exported functions in new modules: `src/entities/powerup.js`, `src/systems/particles.js`, `src/systems/cutscene.js` (JSDoc per plan.md II. Document Everything)
 - [X] T037 [P] Add JSDoc to all new/modified exports in `src/entities/alien.js`, `src/entities/player.js`, `src/entities/boss.js`, `src/entities/projectile.js`, `src/entities/unionist.js`
 - [X] T038 [P] Add JSDoc to all new/modified exports in `src/systems/collision.js`, `src/systems/scoring.js`, `src/systems/levels.js`, `src/canvas.js`, `src/audio/soundManager.js`
-- [ ] T039 Run the full manual test checklist in `specs/001-rebrand-visual-overhaul/quickstart.md`; fix any regressions before merge
+- [ ] T039 Run the full manual test checklist in `specs/002-rebrand-visual-overhaul/quickstart.md`; fix any regressions before merge
 
 ---
 

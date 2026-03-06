@@ -1,6 +1,6 @@
 # Entity Contracts: Syndicat Galactique — Visual Overhaul & Gameplay Balancing
 
-**Branch**: `001-rebrand-visual-overhaul` | **Date**: 2026-03-06
+**Branch**: `002-rebrand-visual-overhaul` | **Date**: 2026-03-06
 
 This document defines the public interface contracts for all entity modules that are **new** or **modified** in this feature. For each module, the exported functions are listed with their signatures, preconditions, postconditions, and side effects.
 

@@ -1,6 +1,6 @@
 # Data Model: Syndicat Galactique — Visual Overhaul & Gameplay Balancing
 
-**Branch**: `001-rebrand-visual-overhaul` | **Date**: 2026-03-06
+**Branch**: `002-rebrand-visual-overhaul` | **Date**: 2026-03-06
 
 This document defines all entity shapes and game-state extensions introduced or modified by this feature. Fields added to existing entities are marked **[NEW]**. Unchanged fields are omitted unless needed for context.
 
